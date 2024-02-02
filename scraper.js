@@ -1,7 +1,7 @@
 // scraper.js
 const axios = require('axios');
 const cheerio = require('cheerio');
-const NewsItem = require('./models/NewsItem');
+const NewsItem = require('./models/newsItem');
 
 async function scrapeAndStore() {
   const url = 'https://news.ycombinator.com/';
